@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./scripts/app.js" type="module" defer></script>
+    <title>Administración - Primer Parcial Laboratorio III Cabarcos</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="./assets/logo-pagina.png" alt="Logo-Escape">
+        <nav class="header-nav">
+            <ul class="listaHeaderNav">
+                <li>Nosotros</li>
+                <li><a href="./paginaPpal.html" target="_blank">Anuncios</a></li>
+                <li>Blog</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cuerpo">
+        <div>
+            <h1 class="titulo">Administración</h1>
+        </div>
+        <div>
+            <img src="./assets/banner-auto.jpg" alt="Banner auto" id="banner">
+        </div>
+        <div>
+            <fieldset class="form-container">
+                <legend>Información del anuncio</legend>
+                <h2 id="funcionABM"></h2>
+                <form>
+                    <label for="titulo">TÍTULO</label>
+                    <input type="text" name="titulo" placeholder="Título" autocomplete="off">
+
+                    <label for="transaccion">TRANSACCIÓN</label>
+                    <input type="radio" name="transaccion" value="Venta">VENTA
+                    <br>
+                    <input type="radio" name="transaccion" value="Alquiler">ALQUILER
+                    <br>
+
+                    <label for="descripcion">DESCRIPCIÓN</label>
+                    <input type="text" name="descripcion" placeholder="Descripción" autocomplete="off">
+                    <label for="precio">PRECIO</label>
+                    <input type="number" name="precio" placeholder="Precio" autocomplete="off">
+                    <br>
+
+                    <label for="puertas">PUERTAS</label>
+                    <input type="number" name="puertas" placeholder="Puertas" autocomplete="off">
+                    <label for="kms">KMs</label>
+                    <input type="number" name="kms" placeholder="KMs" autocomplete="off">
+                    <label for="potencia">POTENCIA</label>
+                    <input type="number" name="potencia" placeholder="Potencia" autocomplete="off">
+                    <input type="hidden" name="id" value="">
+                    <br>
+
+                    <input type="submit" value="Guardar" id="btnGuardar">
+                    <input type="button" value="Eliminar" id="btnEliminar" hidden>
+                    <input type="button" value="Cancelar" id="btnCancelar" hidden>
+                </form>
+            </fieldset>
+        </div>
+        <div>
+            <section class="table-container"></section>
+        </div>
+        <img src="./assets/spinner.gif" alt="Spinner engranajes" id="spinner" hidden>
+    </main>
+
+    <footer class="pie">
+        <div class="footer-nav">
+            <nav>
+                <ul class="listaFooterNav">
+                    <li>Nosotros</li>
+                    <li><a href="./paginaPpal.html" target="_blank">Anuncios</a></li>
+                    <li>Blog</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </div>
+        <span>Todos los derechos reservados 2022 &copy;</span>
+    </footer>
+</body>
+
+</html>

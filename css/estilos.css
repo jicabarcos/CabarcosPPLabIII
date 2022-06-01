@@ -1,0 +1,121 @@
+header img{
+    max-width: 10%;
+    max-height: 10%;
+    justify-content: left;
+}
+
+.header{
+    display: flex;
+    direction:row;
+    align-items:center;
+    background-color:green;
+    justify-content: space-between;
+    padding:10px;
+    margin: 10px;
+}
+
+.cuerpo{
+    background-color: lightgreen;
+    /* align-items: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 10px;
+}
+
+.main-container{
+    display: flex;
+    direction: column;
+    justify-content: center;
+}
+
+.pie{
+    display: flex;
+    direction:row;
+    align-items:center;
+    background-color:green;
+    margin:10px;
+    padding:10px;
+    justify-content:space-between;
+}
+
+.header-nav{
+    justify-content: right;
+}
+
+/* .footer-container{
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+} */
+
+.footer-nav{
+    display: flex;
+    direction: row;
+}
+
+.listaHeaderNav{
+    list-style-type: none;
+}
+
+.listaFooterNav{
+    list-style-type: none;
+    display: flex;
+    direction: row;
+    gap:16px;
+}
+
+footer span{
+    display:flex;
+}
+
+.cuerpo h1{
+    text-align: center;
+}
+
+/* #banner{
+    width: 100%;
+} */
+
+.titulo{
+    padding-top: 20px;
+}
+
+td,
+th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th{
+    background-color: darkcyan;
+    text-transform:uppercase;
+}
+
+td{
+    background-color: darkkhaki;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table-container{
+    padding:100px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+#btnGuardar{
+    background-color:greenyellow;
+}
+
+#btnEliminar{
+    background-color: maroon;
+}
+
+#btnCancelar{
+    background-color: lightseagreen;
+}

@@ -1,0 +1,34 @@
+header img{
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.header-container{
+    background-image: url("../assets/pagina-principal-fondo.png");
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.header-nav{
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.listaHeaderNav{
+    list-style-type: none;
+}
+
+.titulo{
+    color: goldenrod;
+}
+
+.botonVehiculo{
+    background-color: orange;
+    color:white;
+}
+
+.dinero{
+    color:green;
+}
